@@ -1,5 +1,5 @@
 {
-  "version": "2.0.1.0",
+  "version": "2.0.1.1",
   "update_url": "https://github.com/tungnguyen84/AllInOneMmo-Updates/raw/refs/heads/main/update_temp.zip",
   "changelog": "- Sửa lỗi đăng nhập YouTube\n- Thêm tính năng tạo video AI mới\n- Tăng tốc độ render subtitle",
   "is_critical": false
