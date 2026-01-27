@@ -1,0 +1,6 @@
+{
+  "version": "1.0.53",
+  "update_url": "https://github.com/user/repo/releases/download/v1.0.53/update.zip",
+  "changelog": "- Sửa lỗi đăng nhập YouTube\n- Thêm tính năng tạo video AI mới\n- Tăng tốc độ render subtitle",
+  "is_critical": false
+}
