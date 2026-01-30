@@ -1,6 +1,6 @@
 {
-  "version": "2.0.9.0",
+  "version": "2.0.10.0",
   "update_url": "https://github.com/tungnguyen84/AllInOneMmo-Updates/raw/refs/heads/main/update.zip",
-  "changelog": "- Thêm tạo voice tiếng anh\n- Cập nhật thêm\n",
+  "changelog": "- Bỏ thông báo ở clone voice\n- Cập nhật thêm tạo logo banner(chưa ổn định)\n",
   "is_critical": false
 }
