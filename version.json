@@ -1,6 +1,6 @@
 {
-  "version": "2.0.8.0",
+  "version": "2.0.9.0",
   "update_url": "https://github.com/tungnguyen84/AllInOneMmo-Updates/raw/refs/heads/main/update.zip",
-  "changelog": "- Tự restart voice server sau mỗi kịch bản\n- Sửa lỗi tạo thumbnail\n",
+  "changelog": "- Thêm tạo voice tiếng anh\n- Cập nhật thêm\n",
   "is_critical": false
 }
