@@ -1,6 +1,6 @@
 {
-  "version": "2.0.11.0",
+  "version": "2.0.12.0",
   "update_url": "https://github.com/tungnguyen84/AllInOneMmo-Updates/raw/refs/heads/main/update.zip",
-  "changelog": "- Thêm chức năng tạo ảnh theo audio\n- Tạo thumbnail với Whisk, tạo ảnh với Whisk\n",
+  "changelog": "- Thêm chức năng tạo audio podcast\n- Sửa tắt bật xuất capcut\n",
   "is_critical": false
 }
