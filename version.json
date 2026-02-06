@@ -1,6 +1,6 @@
 {
-  "version": "2.0.10.0",
+  "version": "2.0.11.0",
   "update_url": "https://github.com/tungnguyen84/AllInOneMmo-Updates/raw/refs/heads/main/update.zip",
-  "changelog": "- Bỏ thông báo ở clone voice\n- Cập nhật thêm tạo logo banner(chưa ổn định)\n",
+  "changelog": "- Thêm chức năng tạo ảnh theo audio\n- Tạo thumbnail với Whisk, tạo ảnh với Whisk\n",
   "is_critical": false
 }
