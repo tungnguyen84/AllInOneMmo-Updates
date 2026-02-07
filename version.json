@@ -1,5 +1,5 @@
 {
-  "version": "2.0.13.0",
+  "version": "2.0.14.0",
   "update_url": "https://github.com/tungnguyen84/AllInOneMmo-Updates/raw/refs/heads/main/update.zip",
   "changelog": "- Sửa restart voice\n- Thêm chọn đường dẫn lưu db\n",
   "is_critical": false
