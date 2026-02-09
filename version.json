@@ -1,6 +1,6 @@
 {
-  "version": "2.0.16.0",
+  "version": "2.0.17.0",
   "update_url": "https://github.com/tungnguyen84/AllInOneMmo-Updates/raw/refs/heads/main/update.zip",
-  "changelog": "- Sửa tạo audio hàng loạt\n- sửa ghép short\n",
+  "changelog": "- Sửa ghép video dài\n- sửa ghép short\n",
   "is_critical": false
 }
