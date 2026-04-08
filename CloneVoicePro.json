@@ -1,6 +1,17 @@
 {
-  "version": "2.0.0.0",
-  "update_url": "http://14.224.195.16/CloneVoicePro.zip",
-  "changelog": "- Update\n- Update\n",
-  "is_critical": false
+  "version": "2.1.0.0",
+  "update_url": "http://14.224.195.16/CloneVoicePro_2.1.0.0.zip",
+  "sha256": "1e3c3caa188d2e49d230fd30a39fcbf3800afba53d5f852c419624b1880925cf",
+  "changelog": [
+    "Khóa entitlement batch ở backend",
+    "Thêm trang tài khoản và bản quyền",
+    "Thêm support bundle",
+    "Nâng update center với tải ngay, tải và cài sau, rollback",
+    "Stop thật ở backend",
+    "Thêm output manager, dictionary import/export/preset/backup",
+    "Thêm onboarding nhanh và preset thương mại"
+  ],
+  "is_critical": false,
+  "published_at": "2026-04-08T21:30:00+07:00",
+  "notes": "Sau khi tải xong, đóng và mở lại app để áp dụng cập nhật."
 }
