@@ -1,7 +1,7 @@
 {
-  "version": "2.1.0.0",
-  "update_url": "http://14.224.195.16/CloneVoicePro_2.1.0.0.zip",
-  "sha256": "1e3c3caa188d2e49d230fd30a39fcbf3800afba53d5f852c419624b1880925cf",
+  "version": "3.0..0.0",
+  "update_url": "http://14.224.195.16/CloneVoicePro_3.0.0.0.zip",
+  "sha256": "4629FE0A9758C6922C3C7C3B753B703667006160AF91FF02B6CA06CA4B33CC2E",
   "changelog": [
     "Khóa entitlement batch ở backend",
     "Thêm trang tài khoản và bản quyền",
