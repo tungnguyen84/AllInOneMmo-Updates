@@ -1,6 +1,6 @@
 {
-  "version": "2.0.18.0",
+  "version": "3.0.0.0",
   "update_url": "https://github.com/tungnguyen84/AllInOneMmo-Updates/raw/refs/heads/main/update.zip",
-  "changelog": "- Sửa ghép video dài\n- sửa ghép short\n",
+  "changelog": "- Big update\n- Model AI Local\n",
   "is_critical": false
 }
