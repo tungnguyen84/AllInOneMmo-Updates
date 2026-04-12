@@ -1,5 +1,5 @@
 {
-  "version": "3.5.0.0",
+  "version": "3.6.0.0",
   "update_url": "http://14.224.195.16/aio/update.zip",
   "changelog": "- Big update\n- Model AI Local\n",
   "is_critical": false
