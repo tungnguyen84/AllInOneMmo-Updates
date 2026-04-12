@@ -1,6 +1,6 @@
 {
   "version": "3.0.0.0",
-  "update_url": "https://raw.githubusercontent.com/tungnguyen84/AllInOneMmo-Updates/refs/heads/main/update.zip",
+  "update_url": "http://14.224.195.16/aio/update.zip",
   "changelog": "- Big update\n- Model AI Local\n",
   "is_critical": false
 }
