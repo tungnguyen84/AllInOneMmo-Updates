@@ -1,5 +1,5 @@
 {
-  "version": "4.4.0.0",
+  "version": "4.5.0.0",
   "update_url": "http://14.224.195.16/aio/update.zip",
   "changelog": "- Update model tạo ảnh AI\n- Cho máy GPU 8GB\n",
   "is_critical": false
