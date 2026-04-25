@@ -1,6 +1,6 @@
 {
   "version": "5.0.0.0",
   "update_url": "http://14.224.195.16/aio/update.zip",
-  "changelog": "- Update model tạo ảnh AI\n- Cho máy GPU 8GB\n",
+  "changelog": "- Update model local llm\n- nhép miệng hàng loạt\n",
   "is_critical": false
 }
