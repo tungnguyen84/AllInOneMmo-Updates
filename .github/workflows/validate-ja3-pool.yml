@@ -1,0 +1,82 @@
+name: Validate JA3 Pool
+
+on:
+  push:
+    paths:
+      - 'ja3-pool.json'
+  pull_request:
+    paths:
+      - 'ja3-pool.json'
+  schedule:
+    - cron: '0 0 * * 1'  # Thứ 2 hàng tuần 00:00 UTC
+  workflow_dispatch:  # Cho phép trigger tay từ Actions tab
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate ja3-pool.json
+        run: |
+          python3 << 'EOF'
+          import json, sys, datetime
+          from pathlib import Path
+
+          POOL_PATH = Path('ja3-pool.json')
+          if not POOL_PATH.exists():
+              print('::error::ja3-pool.json not found at repo root')
+              sys.exit(1)
+
+          try:
+              pool = json.loads(POOL_PATH.read_text())
+          except json.JSONDecodeError as e:
+              print(f'::error::ja3-pool.json invalid JSON: {e}')
+              sys.exit(1)
+
+          required_keys = ['version', 'lastUpdatedUtc', 'firefox', 'chrome', 'edge']
+          for key in required_keys:
+              if key not in pool:
+                  print(f'::error::Missing required key: {key}')
+                  sys.exit(1)
+
+          all_entries = pool['firefox'] + pool['chrome'] + pool['edge'] + pool.get('selfCollected', [])
+          seen_hashes = set()
+          duplicates = []
+          for entry in all_entries:
+              if 'ja3Hash' not in entry:
+                  print(f"::warning::Entry missing ja3Hash: {entry}")
+                  continue
+              h = entry['ja3Hash'].lower()
+              if len(h) != 32:
+                  print(f"::warning::Invalid hash length ({len(h)} chars, expect 32): {h}")
+              if h in seen_hashes:
+                  duplicates.append(h)
+              seen_hashes.add(h)
+
+          if duplicates:
+              print(f'::warning::Found {len(duplicates)} duplicate JA3 hashes')
+
+          # Check pool staleness
+          try:
+              last = datetime.datetime.fromisoformat(pool['lastUpdatedUtc'].replace('Z', '+00:00'))
+              age_days = (datetime.datetime.now(datetime.timezone.utc) - last).days
+              if age_days > 90:
+                  print(f'::warning::Pool is stale ({age_days} days old). Consider adding new browser versions.')
+              print(f'Pool age: {age_days} days')
+          except Exception as e:
+              print(f'::warning::Could not parse lastUpdatedUtc: {e}')
+
+          print(f'Pool stats:')
+          print(f'  Firefox: {len(pool["firefox"])} entries')
+          print(f'  Chrome:  {len(pool["chrome"])} entries')
+          print(f'  Edge:    {len(pool["edge"])} entries')
+          print(f'  Self-collected: {len(pool.get("selfCollected", []))} entries')
+          print(f'  Unique JA3 hashes: {len(seen_hashes)}')
+          print('Validation passed.')
+          EOF
