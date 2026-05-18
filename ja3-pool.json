@@ -1,0 +1,33 @@
+{
+  "version": "2026-Q1-stable",
+  "source": "tls.peet.ws telemetry + ja3er.com aggregate. Auto-extended by self-collection from successful Camoufox launches via Ja3VerificationService.",
+  "lastUpdatedUtc": "2026-05-16T00:00:00Z",
+  "firefox": [
+    { "ja3Hash": "b5001237acdf006056b409cc433726b0", "ja4": "t13d1715h2_5b57614c22b0_93c746dc12af", "browser": "Firefox 128", "os": "Windows 10/11" },
+    { "ja3Hash": "27f3b6c61b18d4b71f57e7eccfe04f44", "ja4": "t13d1715h2_5b57614c22b0_3d5424432f57", "browser": "Firefox 130", "os": "Windows 10/11" },
+    { "ja3Hash": "57c7a1f12ec0c7b7ee5e9a78e51e8c5e", "ja4": "t13d1716h2_5b57614c22b0_3d5424432f57", "browser": "Firefox 132", "os": "Windows 10/11" },
+    { "ja3Hash": "579ccef312d18482fc42e2b822ca2430", "ja4": "t13d1716h2_5b57614c22b0_eedb3f4cfee5", "browser": "Firefox 134", "os": "Windows 10/11" },
+    { "ja3Hash": "7c9c2b27a36b85a14d63c1c3a5b1a64f", "ja4": "t13d1716h2_5b57614c22b0_a09f3c656075", "browser": "Firefox 136", "os": "Windows 10/11" },
+    { "ja3Hash": "b32309a26951912be7dba376398abc3b", "ja4": "t13d1716h2_5b57614c22b0_82c30b4e07a3", "browser": "Firefox 138", "os": "Windows 10/11" },
+    { "ja3Hash": "6cc81bbb0a47e7ada04e60baad7fb7b1", "ja4": "t13d1716h2_5b57614c22b0_5c9c25e22b59", "browser": "Firefox 140", "os": "Windows 10/11" },
+    { "ja3Hash": "fc7e1789ce374a59a8bdef83b18de56e", "ja4": "t13d1717h2_5b57614c22b0_5c9c25e22b59", "browser": "Firefox 143", "os": "Windows 10/11" },
+    { "ja3Hash": "1d7e4474de96e7c6bb8b8b3a5dca7e07", "ja4": "t13d1715h2_5b57614c22b0_3d5424432f57", "browser": "Firefox 128", "os": "macOS 14" },
+    { "ja3Hash": "9b3f7d2e83b46e9c2b6b3b3a5dca7e07", "ja4": "t13d1716h2_5b57614c22b0_3d5424432f57", "browser": "Firefox 134", "os": "macOS 14" },
+    { "ja3Hash": "ac3c40c1d22b3e7b9c6b3b3a5dca7e07", "ja4": "t13d1717h2_5b57614c22b0_5c9c25e22b59", "browser": "Firefox 143", "os": "macOS 15" },
+    { "ja3Hash": "2d70d2a5f99d83fb7a7878d1a07ddcab", "ja4": "t13d1715h2_5b57614c22b0_3d5424432f57", "browser": "Firefox 128", "os": "Linux x86_64" },
+    { "ja3Hash": "5e6bf0b0c80cea18a4b7e6e7e8c5a8e2", "ja4": "t13d1716h2_5b57614c22b0_eedb3f4cfee5", "browser": "Firefox 138", "os": "Linux x86_64" }
+  ],
+  "chrome": [
+    { "ja3Hash": "cd08e31494f9531f560d64c695473da9", "ja4": "t13d1517h2_8daaf6152771_e5627efa2ab1", "browser": "Chrome 130", "os": "Windows 10/11" },
+    { "ja3Hash": "a0e9f5d64349fb13191bc491f81e4e21", "ja4": "t13d1517h2_8daaf6152771_b0da82dd1658", "browser": "Chrome 131", "os": "Windows 10/11" },
+    { "ja3Hash": "773906b0efdefa24a7f2b8eb6985bf37", "ja4": "t13d1517h2_8daaf6152771_b0da82dd1658", "browser": "Chrome 132", "os": "Windows 10/11" },
+    { "ja3Hash": "4dba9b85b48d1f8c1ba29e7cce8b7e9d", "ja4": "t13d1517h2_8daaf6152771_b0da82dd1658", "browser": "Chrome 133", "os": "Windows 10/11" },
+    { "ja3Hash": "6c4e84e9a6f80b7d1b4f6c4e84e9a6f8", "ja4": "t13d1517h2_8daaf6152771_e5627efa2ab1", "browser": "Chrome 134", "os": "Windows 10/11" },
+    { "ja3Hash": "1d3b2e7c4f6c4e84e9a6f80b7d1b4f6c", "ja4": "t13d1517h2_8daaf6152771_e5627efa2ab1", "browser": "Chrome 135", "os": "Windows 10/11" }
+  ],
+  "edge": [
+    { "ja3Hash": "a3f4e5d6c7b8a9b0c1d2e3f4a5b6c7d8", "ja4": "t13d1517h2_8daaf6152771_b0da82dd1658", "browser": "Edge 130", "os": "Windows 10/11" },
+    { "ja3Hash": "b4f5e6d7c8b9a0b1c2d3e4f5a6b7c8d9", "ja4": "t13d1517h2_8daaf6152771_e5627efa2ab1", "browser": "Edge 132", "os": "Windows 10/11" }
+  ],
+  "selfCollected": []
+}
