@@ -1,6 +1,6 @@
 {
   "version": "6.1.0.0",
   "update_url": "http://14.224.195.16/aio/update.zip",
-  "changelog": "- Update model local llm\n- nhép miệng hàng loạt\n",
+  "changelog": "- Update render short\n- update reup\n",
   "is_critical": false
 }
