@@ -1,5 +1,5 @@
 {
-  "version": "6.5.0.0",
+  "version": "6.6.0.0",
   "update_url": "http://14.224.195.16/aio/update.zip",
   "changelog": "- Update render short\n- update reup\n",
   "is_critical": false
