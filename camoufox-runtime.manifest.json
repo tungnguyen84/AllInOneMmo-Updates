@@ -1,0 +1,7 @@
+{
+  "requiredRuntimeVersion": "2026.6.24.1",
+  "runtimeVersion": "2026.6.24.1",
+  "releasedAt": "2026-06-24",
+  "notes": "reCAPTCHA chuyển sang SmolVLM-256M (local-vlm), gỡ fallback CLIP/ClipSeg.",
+  "downloadUrl": "http://14.224.195.16/aio/camoufox-runtime.zip"
+}
