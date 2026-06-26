@@ -1,6 +1,6 @@
 {
-  "version": "6.8.0.0",
+  "version": "6.9.0.0",
   "update_url": "http://14.224.195.16/aio/update.zip",
-  "changelog": "- Update render short\n- update reup\n",
+  "changelog": "- Quản lý profile\n- Tạo logo banner\n",
   "is_critical": false
 }
