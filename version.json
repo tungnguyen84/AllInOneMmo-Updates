@@ -1,5 +1,5 @@
 {
-  "version": "7.8.6.0",
+  "version": "7.8.7.0",
   "update_url": "http://14.224.195.16/aio/update.zip",
   "changelog": "- Quản lý profile1\n- Tạo logo banner\n",
   "is_critical": false
