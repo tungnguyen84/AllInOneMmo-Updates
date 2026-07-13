@@ -1,6 +1,6 @@
 {
-  "version": "7.8.9.6",
+  "version": "7.8.9.7",
   "update_url": "http://14.224.195.16/aio/update.zip",
-  "changelog": "- Nuôi tài khoản\n- Tạo logo banner\n",
+  "changelog": "- profile\n- Tạo logo banner\n",
   "is_critical": false
 }
