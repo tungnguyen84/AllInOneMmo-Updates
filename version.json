@@ -1,5 +1,5 @@
 {
-  "version": "8.0.0.8",
+  "version": "8.0.0.9",
   "update_url": "http://14.224.195.16/aio/update.zip",
   "changelog": "- update banana\n- profile8\n",
   "is_critical": false
