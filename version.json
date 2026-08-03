@@ -1,6 +1,6 @@
 {
-  "version": "8.0.2.6",
+  "version": "8.0.2.8",
   "update_url": "http://14.224.195.16/aio/update.zip",
-  "changelog": "- sửa lỗi xưởng video short\n- sửa lỗi đăng kênh\n",
+  "changelog": "- sửa lỗi giám sát và điều phối\n- sửa lỗi đăng kênh\n",
   "is_critical": false
 }
