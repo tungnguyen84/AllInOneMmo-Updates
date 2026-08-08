@@ -1,5 +1,5 @@
 {
-  "version": "8.0.3.0",
+  "version": "8.0.3.1",
   "update_url": "http://14.224.195.16/aio/update.zip",
   "changelog": "- AI flow Studio\n- sửa lỗi đăng kênh\n",
   "is_critical": false
