@@ -1,6 +1,6 @@
 {
-  "version": "8.0.3.9",
+  "version": "8.0.4.0",
   "update_url": "http://14.224.195.16/aio/update.zip",
-  "changelog": "- Các cập nhật ở phiên bản 8.0.3.9\n- sửa lỗi lại ở tab lỗi\n- Cho lựa chọn có cập nhật hay không.\n- Cho lựa chọn có tự động điền hay không khi mở tay profile.\n",
+  "changelog": "- Sửa quy trình đăng YouTube Shorts, tránh báo đã đăng khi video còn là bản nháp.\n- Đăng lại từ tab Lỗi sử dụng đúng video cũ và hiển thị kết quả thực tế.\n- Không tự xóa video khi chưa có bằng chứng upload thành công.\n- Tạm dừng nhóm giờ sẽ ngừng đăng thật; lịch chạy đúng giờ và không bị chặn bởi lượt upload trước.\n- Cải thiện bù lịch trễ, hạn mức đăng mỗi ngày và chống tạo thiếu lịch hàng loạt.\n- Sửa quy trình chuyển chủ sở hữu Brand Account và xác minh kết quả sau thao tác.\n- Bổ sung log riêng từng kênh, tự dọn log cũ và chức năng gửi log cho nhà phát triển.\n- Cải thiện màn hình Theo dõi kênh YouTube và cách tính tăng trưởng.\n- Kháng nghị Gmail lấy ngẫu nhiên không lặp từ Quản lý Mẫu; chỉ fallback về khangnghi.txt khi database trống hoặc lỗi.\n- Clone Voice Pro tự ghép kết quả hàng loạt thành file audio_merged.wav theo đúng thứ tự.\n- Nâng cấp quản lý phong cách ảnh: cho phép sửa, xóa và khôi phục mẫu mặc định.\n- Bổ sung 27 ảnh preview riêng cho 27 phong cách, không còn dùng lại ảnh sai phong cách.\n- Prompt tự tạo có thể tạo hoặc tạo lại ảnh mẫu bằng Google Banana theo model trong Cấu hình hệ thống.\n- Sửa nhiều lỗi ổn định, hiển thị trạng thái và kiểm tra dữ liệu trong quá trình vận hành.",
   "is_critical": false
 }
