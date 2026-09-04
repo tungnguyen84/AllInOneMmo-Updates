@@ -1,5 +1,5 @@
 {
-  "version": "8.0.4.0",
+  "version": "8.0.4.4",
   "update_url": "http://14.224.195.16/aio/update.zip",
   "changelog": "- Thêm giọng đọc Piper cho Tạo video tự động: chạy bằng CPU nên máy không có card đồ hoạ vẫn dùng được, tải giọng một lần rồi chạy ngoại tuyến.\n- Piper dùng giọng dựng sẵn (ba giọng tiếng Việt và nhiều giọng tiếng Anh), không nhân bản giọng theo file mẫu — muốn giọng riêng thì vẫn dùng OmniVoice.\n- Sửa lỗi hai ô Ngôn ngữ giọng đọc và Giọng đọc CapCut trống trơn trên máy chỉ cập nhật bằng gói zip; gói cập nhật nay mang đủ danh sách giọng.\n- Báo cáo ngày: thẻ kênh hết lịch hoặc kho không còn video không còn hiện OK, mà báo đỏ kèm lý do cụ thể.\n- Sửa lỗi lịch sử báo cáo bị ghi đè mỗi rạng sáng do lệch múi giờ giữa lúc lưu và lúc đếm.\n- Mỗi thẻ kênh có một câu chốt, tách rõ kho video còn dùng được và thêm dòng cho biết ngày kênh sẽ ngừng đăng.\n- Siết ẩn danh cho profile chạy thẳng không proxy: múi giờ, ngôn ngữ, toạ độ, IP WebRTC và User-Agent khớp nhau.\n- Bỏ kích thước màn hình và cửa sổ vô lý; mở danh sách Profile là phần mềm tự soát và tự sửa lỗi ẩn danh, giữ nguyên đăng nhập.\n- Gói cập nhật mang theo đủ 100 mẫu đơn kháng nghị Gmail, máy cập nhật không còn gửi chung một lá đơn giống hệt nhau.\n- Xưởng Video Short chạy hàng loạt an toàn hơn; module nuôi tài khoản theo nguyên tắc một Gmail gắn một profile.",
   "is_critical": false
