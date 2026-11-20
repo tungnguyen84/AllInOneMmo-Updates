@@ -1,6 +1,6 @@
 {
-  "version": "8.0.7.0",
+  "version": "8.0.7.1",
   "update_url": "http://14.224.195.16/aio/update.zip",
-  "changelog": "Bản nâng cấp & sửa lỗi 8.0.7.0\n[Tải video]\n- YouTube tối đa 3 video cùng lúc; bị chặn tạm thì tự nghỉ 15 → 30 → 60 phút rồi tải tiếp.\n- Kiểm tra cookie YouTube có đăng nhập, báo rõ khi cookie bị đăng xuất; dùng cookie thì tối đa 2 video cùng lúc.\n- Chọn ngôn ngữ phụ đề, tiến trình ghi rõ Hình/Tiếng, ưu tiên H.264.\n[Quản lý Profile]\n- Sửa cột Tương tác tay bị cắt.\n\nBản nâng cấp & sửa lỗi 8.0.6.9\n...",
+  "changelog": "Bản nâng cấp & sửa lỗi 8.0.7.1\n[Đăng tải đa kênh]\n- Mỗi nhóm chỉ 1 kênh mỗi nền tảng, tên nhóm không trùng.\n- Tạo thư mục kho hàng loạt, tự dọn nhóm trống.\n- Thêm mẫu lịch đăng có sẵn.\n[Quản lý Profile]\n- Instagram tự nhận đăng nhập; sửa lỗi tải trình duyệt.\n[Affiliate Video]\n- Đọc sản phẩm từ link không cần profile.\n[Giao diện]\n- Thêm ô tìm kênh, sửa lỗi văng ở AI Video.",
   "is_critical": false
 }
