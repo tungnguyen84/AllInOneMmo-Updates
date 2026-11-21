@@ -1,6 +1,6 @@
 {
-  "version": "8.0.7.1",
+  "version": "8.0.7.2",
   "update_url": "http://14.224.195.16/aio/update.zip",
-  "changelog": "Bản nâng cấp & sửa lỗi 8.0.7.1\n[Đăng tải đa kênh]\n- Mỗi nhóm chỉ 1 kênh mỗi nền tảng, tên nhóm không trùng.\n- Tạo thư mục kho hàng loạt, tự dọn nhóm trống.\n- Thêm mẫu lịch đăng có sẵn.\n[Quản lý Profile]\n- Instagram tự nhận đăng nhập; sửa lỗi tải trình duyệt.\n[Affiliate Video]\n- Đọc sản phẩm từ link không cần profile.\n[Giao diện]\n- Thêm ô tìm kênh, sửa lỗi văng ở AI Video.",
+  "changelog": "Bản nâng cấp & sửa lỗi 8.0.7.2\n[Tạo Video AI]\n- R2V thật: ảnh tham chiếu chỉ giữ mặt, không làm khung đầu.\n- Thêm cách nối tiếp khung cuối cảnh trước mà vẫn giữ mặt.\n[Xây thương hiệu kênh]\n- Sửa lỗi sinh preset khi dùng AI local.",
   "is_critical": false
 }
