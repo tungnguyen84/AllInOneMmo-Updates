@@ -1,6 +1,6 @@
 {
-  "version": "8.0.7.2",
+  "version": "8.0.7.3",
   "update_url": "http://14.224.195.16/aio/update.zip",
-  "changelog": "Bản nâng cấp & sửa lỗi 8.0.7.2\n[Tạo Video AI]\n- R2V thật: ảnh tham chiếu chỉ giữ mặt, không làm khung đầu.\n- Thêm cách nối tiếp khung cuối cảnh trước mà vẫn giữ mặt.\n[Xây thương hiệu kênh]\n- Sửa lỗi sinh preset khi dùng AI local.",
+  "changelog": "Bản nâng cấp & sửa lỗi 8.0.7.3\n[Review Phim]\n- Đối chiếu lời kể theo phụ đề và ảnh ở cảnh không thoại.\n- Chọn thời lượng, cách đọc tên riêng và xuất clip nguồn.\n- Xuất đè lỗi tự khôi phục tệp; Tiếp tục kiểm tra đủ tệp.\n[Đăng tải đa kênh]\n- Sửa áp lại lịch nhóm Dùng chung, chạy đủ YouTube/TikTok.\n- Dán nhanh mô tả khi đăng và tự dán thẻ (Tags) YouTube.\n[Xưởng Video Short]\n- Thêm tải nội dung viết sẵn từ kho server theo batch/ngách.\n\nBản nâng cấp & sửa lỗi 8.0.7.2\n[Tạo Video AI]\n- R2V thật: ảnh tham chiếu chỉ giữ mặt, không làm khung đầu.\n- Thêm cách nối tiếp khung cuối cảnh trước mà vẫn giữ mặt.\n[Xây thương hiệu kênh]\n- Sửa lỗi sinh preset khi dùng AI local.",
   "is_critical": false
 }
