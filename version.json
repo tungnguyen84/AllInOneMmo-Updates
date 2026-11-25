@@ -1,6 +1,6 @@
 {
-  "version": "8.0.7.3",
+  "version": "8.0.7.4",
   "update_url": "http://14.224.195.16/aio/update.zip",
-  "changelog": "Bản nâng cấp & sửa lỗi 8.0.7.3\n[Review Phim]\n- Đối chiếu lời kể theo phụ đề và ảnh ở cảnh không thoại.\n- Chọn thời lượng, cách đọc tên riêng và xuất clip nguồn.\n- Xuất đè lỗi tự khôi phục tệp; Tiếp tục kiểm tra đủ tệp.\n[Đăng tải đa kênh]\n- Sửa áp lại lịch nhóm Dùng chung, chạy đủ YouTube/TikTok.\n- Dán nhanh mô tả khi đăng và tự dán thẻ (Tags) YouTube.\n[Xưởng Video Short]\n- Thêm tải nội dung viết sẵn từ kho server theo batch/ngách.\n\nBản nâng cấp & sửa lỗi 8.0.7.2\n[Tạo Video AI]\n- R2V thật: ảnh tham chiếu chỉ giữ mặt, không làm khung đầu.\n- Thêm cách nối tiếp khung cuối cảnh trước mà vẫn giữ mặt.\n[Xây thương hiệu kênh]\n- Sửa lỗi sinh preset khi dùng AI local.",
+  "changelog": "Bản nâng cấp & sửa lỗi 8.0.7.4\n[Hồng Quả]\n- Khôi phục tải 1080p, thêm Cookie tài khoản, sửa treo ghép Full.\n[Ghép video nhạc VIP]\n- Xuất ngang/dọc song song, hỗ trợ ảnh, nhiều video và xếp nhạc.\n[Đăng tải đa kênh]\n- Thêm Đăng ngay, lọc profile theo kênh, ổn định TikTok/FB/IG.\n[Thumbnail]\n- Gói 3 ngang + 1 dọc, chuẩn 16:9/9:16, tạo lại lỗi, xuất meta.\n[Tạo video tự động]\n- Thêm kiểu sóng nhạc mới, xem trước nét Full HD, sửa hiệu ứng.",
   "is_critical": false
 }
