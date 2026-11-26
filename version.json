@@ -1,6 +1,6 @@
 {
-  "version": "8.0.7.4",
+  "version": "8.0.7.5",
   "update_url": "http://14.224.195.16/aio/update.zip",
-  "changelog": "Bản nâng cấp & sửa lỗi 8.0.7.4\n[Hồng Quả]\n- Khôi phục tải 1080p, thêm Cookie tài khoản, sửa treo ghép Full.\n[Ghép video nhạc VIP]\n- Xuất ngang/dọc song song, hỗ trợ ảnh, nhiều video và xếp nhạc.\n[Đăng tải đa kênh]\n- Thêm Đăng ngay, lọc profile theo kênh, ổn định TikTok/FB/IG.\n[Thumbnail]\n- Gói 3 ngang + 1 dọc, chuẩn 16:9/9:16, tạo lại lỗi, xuất meta.\n[Tạo video tự động]\n- Thêm kiểu sóng nhạc mới, xem trước nét Full HD, sửa hiệu ứng.",
+  "changelog": "Bản nâng cấp & sửa lỗi 8.0.7.5\n[Review Phim]\n- Cảnh thiếu bằng chứng không dừng cả phim, DeepSeek V4.1 nhanh hơn.\n[Xưởng Video Short]\n- Kho server tách Tiếng Việt/English, mặc định nền 85%, âm 100%.\n[Ghép video nhạc VIP]\n- Sóng theo nhạc thật, thời lượng video sau ± ngẫu nhiên.\n[Thumbnail]\n- Thêm nút Mở thư mục trên từng dòng tạo hàng loạt.\n[Nhà cung cấp AI]\n- Sửa lỗi tiêu đề ChatGPT Local, đọc ảnh theo nhà cung cấp đang bật.",
   "is_critical": false
 }
